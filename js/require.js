@@ -157,7 +157,7 @@ var requirejs, require, define;
      * @param {String} message human readable error.
      * @param {Error} [err] the original error, if there is one.
      *
-     * @returns {Eror}
+     * @returns {Error}
      */
     function makeError(id, msg, err, requireModules) {
         var e = new Error(msg + '\nhttp://requirejs.org/docs/errors.html#' + id);
