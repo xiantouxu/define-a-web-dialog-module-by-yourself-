@@ -1,7 +1,7 @@
 require.config({
 	paths:{
 		jquery:"jquery.min",
-		jqueryUI:"http://code.jquery.com/ui/1.10.4/jquery-ui"
+		jqueryUI:"https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"
 	}
 });
 
