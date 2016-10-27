@@ -2,7 +2,8 @@ require.config({
 	paths:{
 		jquery:"jquery.min",
 		jqueryUI:"jquery.ui"
-	}
+	},
+	waitSeconds:0
 });
 
 require(['jquery','window'],function($,w){
